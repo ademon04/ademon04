@@ -56,6 +56,7 @@ router.patch('/:postId', async (req, res) => {
         res.json(updatedPost);
     }catch (err) {
     res.json({ message: err});
+// El chuy vlv
 }
 });
  module.exports = router;
